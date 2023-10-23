@@ -127,7 +127,7 @@ func (l *Lexer) Lex() (Position, Token, string) {
 	case '\n':
 		l.resetPosition()
 	case ';':
-		return l.pos, SEMI, "\n"
+		return l.pos, SEMI, ";"
 	case '+':
 		return l.pos, ADD, "+"
 	case '-':
@@ -192,7 +192,7 @@ func (l *Lexer) lexIdent() string {
 
 
 func main() {
-	file, err := os.Open("input.test")
+	file, err := os.Open("file.test")
 	if err != nil {
 		panic(err)
 	}
