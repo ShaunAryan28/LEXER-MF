@@ -1,16 +1,5 @@
-package main
-
-import "fmt"
-
-func main() {
-  var a, b int
-  fmt.Scanf("%d %d", &a, &b)
-
-  if a > b {
-    fmt.Println("a is greater than b")
-  } else if a < b {
-    fmt.Println("a is less than b")
-  } else {
-    fmt.Println("a is equal to b")
-  }
-}
+a = 5;
+b = a + 6;
+c + 123;
+5+12;
+Hello = 102;
